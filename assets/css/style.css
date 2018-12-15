@@ -45,7 +45,8 @@ body {
     padding: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -233,7 +234,7 @@ Responsive Styles
 
 @media screen and (max-width: 980px) {
    .body {
-       width: 650px;
+       width: 550px;
        display: inline-block;
        margin-left: 30px;
    }
@@ -252,15 +253,27 @@ Responsive Styles
 
     .portfolio-item {
         display: inline-block;
-        width: 45%;
-        margin: 10px;
+        width: 40%;
+    }
+
+    .portfolio-img {
+        width: 200px;
+        display: block;
+        margin: auto;
+    }
+
+    h3 {
+        width: 200px;
+        margin: auto;
+        bottom: 75px;
     }
 
 }
 
 @media screen and (max-width: 768px) {
     .body {
-        margin: 40px;
+        margin: 20px;
+        width: 95%;
     }
 
     #name {
@@ -269,11 +282,8 @@ Responsive Styles
     }
 
     .top-nav {
-        /* background-color: red; */
         width: 55%;
     }
-
-    /* portfolio.html | Main Section - Portfolio */
 
     .portfolio {
         text-align: justify;
@@ -299,10 +309,6 @@ Responsive Styles
         position: static;
     }
 
-    .container {
-        max-width: 100%;
-    }
-
     #name,
     .top-nav {
         width: 100%;
@@ -315,11 +321,10 @@ Responsive Styles
     }
 
     .profile-img {
-        width: 100%;
+        width: 95%;
     }
 
     .body {
-        margin: 40px;
         max-width: 100%;
     }
 
