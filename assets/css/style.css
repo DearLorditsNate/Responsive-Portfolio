@@ -224,3 +224,60 @@ footer {
     color: #ddd;
     padding-top: 5px;
 }
+
+/* 
+===================================
+Responsive Styles
+===================================
+*/
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    #name,
+    .top-nav {
+        width: 100%;
+    }
+
+    .top-nav {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .profile-img {
+        width: 100%;
+    }
+
+    .body {
+        margin: 40px;
+        max-width: 100%;
+    }
+
+    .portfolio-item {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .portfolio-img {
+        width: 100%;
+    }
+
+    h3 {
+        width: 100%;
+        bottom: 60px;
+    }
+}
