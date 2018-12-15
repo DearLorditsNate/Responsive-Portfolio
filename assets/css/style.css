@@ -232,11 +232,66 @@ Responsive Styles
 */
 
 @media screen and (max-width: 980px) {
+   .body {
+       width: 650px;
+       display: inline-block;
+       margin-left: 30px;
+   }
+
+   #name {
+       margin-left: 20px;
+   }
+
+   .top-nav {
+       width: 60%;
+   }
+
+    .portfolio {
+        text-align: justify;
+    }
+
+    .portfolio-item {
+        display: inline-block;
+        width: 45%;
+        margin: 10px;
+    }
 
 }
 
 @media screen and (max-width: 768px) {
+    .body {
+        margin: 40px;
+    }
 
+    #name {
+        width: 35%;
+        margin-left: 10px;
+    }
+
+    .top-nav {
+        /* background-color: red; */
+        width: 55%;
+    }
+
+    /* portfolio.html | Main Section - Portfolio */
+
+    .portfolio {
+        text-align: justify;
+    }
+
+    .portfolio-item {
+        display: inline-block;
+        width: 45%;
+        margin: 10px;
+    }
+
+    .portfolio-img {
+        width: 100%;
+    }
+
+    h3 {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -251,6 +306,7 @@ Responsive Styles
     #name,
     .top-nav {
         width: 100%;
+        margin-left: 0;
     }
 
     .top-nav {
